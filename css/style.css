@@ -1,0 +1,308 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(255, 255, 255);
+}
+.cabecalho {
+    display:flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-shadow: 0px 0px 16px black;
+    height: 70;
+}
+img {
+    width: 50px;
+    height: 50px;
+}
+.menu {
+    display: flex;
+    align-items: center;
+}
+ ul > li > a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.menu > li {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    font-family:"Cocogoose Pro Light-trial.ttf" ;
+    font-size: 13px;
+    color: black;
+}
+.menu > li > a:hover {
+    color: green
+}
+.menu2 {
+    display: flex;
+    align-items: center;
+}
+.menu2 > li {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-family: "SoDoSans-Regular.ttf";
+}
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.botao {
+    border: 1px solid rgb(255, 255, 255);
+    border-radius:20px ;
+    padding: 10px 10px;
+    background-color: black;
+    color: white;
+}
+.botao:hover {
+    background-color: gray;
+}
+.botao2 {
+    border: 1px solid rgb(0, 0, 0);
+    border-radius:20px ;
+    padding: 10px 10px;
+}
+.botao2:hover {
+    background-color: gray;
+}
+@font-face {
+    font-family: "SoDoSans-Regular.ttf";
+    src: url(/Starcoffe/SoDoSans-Regular.ttf);
+}
+@font-face {
+    font-family:"Cocogoose Pro Light-trial.ttf" ;
+    src: url(/Starcoffe/Cocogoose\ Pro\ Light-trial.ttf);
+}
+@font-face {
+    font-family: "adelia.ttf";
+    src: url(/Starcoffe/adelia.ttf);
+}
+main {
+    height: 1650px;
+}
+main > img {
+    width: 1300px;
+    height: 400px;
+    margin-left: 90px;
+    margin-right: 90px;
+    margin-top: 10px;
+
+}
+.verde {
+    background-color: #131413;
+    width: 1300px;
+    height: 200px;
+    margin-left: 90px;
+    margin-right: 90px;
+    margin-top: 30px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 20px;
+    font-family: "SoDoSans-Regular.ttf";
+    color: wheat;
+    background-image: url(/Starcoffe/img/preto.jpg);
+    background-size: 60px;
+}    
+main > .verde > .butap {
+    padding: 5px 10px;
+    border: 2px solid wheat;
+    text-decoration: none;
+    border-radius: 20px;
+    color: wheat;
+    background-color: transparent;
+    margin-top: 10px;
+    
+}
+main > .verde > .butap:hover {
+    background-color: rgba(245, 179, 201, 0.349);
+    padding: 2px 7px;
+    transition: 0.3s;
+    box-shadow:0px 4px 16px rgba(245, 179, 201, 0.256);
+    font-size: 15px;
+}
+main > .segunda {
+    background-color: #22120b;
+    width: 1300px;
+    height: 450px;
+    margin-left: 90px;
+    margin-right: 90px;
+    margin-top: 30px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    font-family: "SoDoSans-Regular.ttf";
+    color: wheat;
+    background-image: url(/Starcoffe/img/morro.jpg);
+    background-size: 60px;
+}
+.segunda > img {
+    justify-content: right;
+    width: 500px;
+    height: 450px;
+}
+.textoimg {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: 90px;
+    margin-right: 90px;
+    margin-top: 50px;
+}
+.textoimg > .p2 {
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.textoimg> h2 {
+    font-family: "adelia.ttf";
+}
+.textoimg > .botaoapp {
+    padding: 7px 14px;
+    border: 2px solid wheat;
+    text-decoration: none;
+    border-radius: 20px;
+    color: wheat;
+    background-color: transparent;
+    margin-top: 10px;
+    font-size: 15px;
+}
+.textoimg > .botaoapp:hover {
+    background-color: rgba(245, 179, 201, 0.349);
+    padding: 4px 7px;
+    transition: 0.3s;
+    box-shadow:0px 4px 16px rgba(245, 179, 201, 0.256);
+    font-size: 12px;
+}
+.textoimg2 {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: 90px;
+    margin-right: 90px;
+    margin-top: 100px;
+    width: 600px;
+}
+.textoimg2 > .p3 {
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.textoimg2> h2 {
+    font-family: "adelia.ttf";
+}
+.textoimg2 > .botaoapp {
+    padding: 7px 14px;
+    border: 2px solid wheat;
+    text-decoration: none;
+    border-radius: 20px;
+    color: wheat;
+    background-color: transparent;
+    margin-top: 10px;
+    font-size: 15px;
+}
+.textoimg2 > .botaoapp:hover {
+    background-color: rgba(255, 166, 125, 0.349);
+    padding: 4px 7px;
+    transition: 0.3s;
+    box-shadow:0px 4px 16px rgba(255, 166, 124, 0.349);
+    font-size: 12px;
+}
+.textoimg2 > img {
+    width: 150px;
+    height: 100px;
+}
+main > .segunda1 {
+    background-color: #7c6543;
+    width: 1300px;
+    height: 450px;
+    margin-left: 90px;
+    margin-right: 90px;
+    margin-top: 30px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    font-family: "SoDoSans-Regular.ttf";
+    color: wheat;
+    background-image: url(/Starcoffe/img/fufo.jpg);
+    background-size: 60px;
+}
+.segunda1 > img {
+    justify-content: right;
+    width: 530px;
+    height: 450px;
+}
+td {
+    width: 200px; height: 50px;
+}
+tr {
+    width: 100px; height: 10px;
+}
+footer {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 4px 16px black;
+    justify-content: center;
+    align-items: center;
+    font-family: "SoDoSans-Regular.ttf";
+}
+th {
+    margin-top: 100px;
+    margin-left: 0;
+}
+.titulo {
+    color: #000;
+
+}
+td > a {
+    text-decoration: none;
+    color: #676767;
+}
+td > a:hover {
+    color: #000;
+}
+.icons {
+    margin-top: 40px;
+    margin-left: 200px;
+    margin-bottom: 30px;
+    display: flex;
+}
+.icone {
+    margin-right: 20px;
+}
+.icone:hover {
+    width: 45px;
+    height: 45px;
+    transition: 0.5s;
+}
+.icons > a {
+    text-decoration: none ;
+}
+.um {
+    margin-left: 200px;
+}
+.yu > a {
+    text-decoration: none;
+    color: #000;
+    margin-bottom: 70px;
+}
+.yu > a:hover {
+    color: #777777;
+}
+.bb {
+    margin-left: 200px;
+    color: #777777;
+    margin-top: 50px;
+}
